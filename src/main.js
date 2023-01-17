@@ -1,8 +1,4 @@
-
-// ******************************************************
-// ************* Get the Preferred Network **************
-// ******************************************************   
- const xrpl = require('xrpl')
+const xrpl = require('xrpl')
 
 async function main() {
   const api = new xrpl.Client('wss://xrplcluster.com');
